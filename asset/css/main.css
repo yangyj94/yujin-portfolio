@@ -8,7 +8,7 @@
 .menu .tit {display: block; font-size: 3.106vh;}
 .menu .txt {display: block; font-size: 1.863vh; margin-top: 1vh;}
 
-.arrow {display: block; width: 4.141vh; height: 4.762vh; background: url("../img/arrow-gray.png")no-repeat center/contain; text-indent: -999999px;}
+.arrow {display: block; width: 4.141vh; height: 4.762vh; background: url("/yujin-portfolio/asset/img/arrow-gray.png")no-repeat center/contain; text-indent: -999999px;}
 
 .ptt {padding: 0 6.5vh; position: relative; float: left; box-sizing: border-box; height: 100%; width: 15.528vh; border-left: 1px solid #ddd;}
 .ptt .arrow {position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%);}
@@ -49,7 +49,7 @@ body.active { height: auto; overflow: auto; }
 #bar3 { width: 1px; height: 0; background-color: #ddd; position: absolute; top: 0; right: 0;}
 #section1 #cont1 #img-box {width: 55vh; height: 100%;  float: left; position: relative;}
 #section1 #cont1 #img-box #hide {position: absolute; width: 100%; height: 100%; background-color: #fff; top: 0; right: 0; z-index: 1;}
-#section1 #cont1 #img-box .in-img{width: 100%; height: 100%;background: url("../img/main_img.jpg")no-repeat center/cover;position: relative;}
+#section1 #cont1 #img-box .in-img{width: 100%; height: 100%;background: url("/yujin-portfolio/asset/img/main_img.jpg")no-repeat center/cover;position: relative;}
 #section1 #cont1 #txt-box {float: left; width: 78vh; height: 100%; box-sizing: border-box; padding: 10vh 8vh 0;}
 #section1 #cont1 .title {position: relative; font-size: 4.141vh; opacity: 0; transform: translateY(-50px);}
 #section1 #cont1 .s-tit {font-size: 1.863vh; color: rgba(0,0,0,0.6); margin: 5vh 0; opacity: 0;transform: translateY(-50px);}
@@ -81,7 +81,7 @@ body.active { height: auto; overflow: auto; }
 #section2 #cont2 .bt-box .img {position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); width: 80%; height: 80%; overflow: hidden;}
 #section2 #cont2.on .bt-box .img {animation: fadeIn 1.2s ease-in-out 1.5s forwards;}
 
-#section2 #cont2 .bt-box .img .in-img{background: url("/asset/img/about_img.jpg")no-repeat center/cover; width: 120%; height: 100%; text-indent: -9999px;}
+#section2 #cont2 .bt-box .img .in-img{background: url("/yujin-portfolio/asset/img/about_img.jpg")no-repeat center/cover; width: 120%; height: 100%; text-indent: -9999px;}
 #section2 #cont2 .bt-box {border-top: none; position: relative; opacity: 0; transform: translateY(50px);}
 #bar4 { width: 0%; height: 1px; background-color: #ddd; position: absolute; top: 50%; transform: translateY(-50%); left: 0;}
 
@@ -114,7 +114,7 @@ body.active { height: auto; overflow: auto; }
 #section4 .ptt {width: 39.13vh;}
 #section4 .cont .num {float: left; height: 100vh; padding: 5vh; box-sizing: border-box; border-left: 1px solid #ddd;display: -webkit-box; display: -ms-flexbox; display: flex;-webkit-box-align: center; -ms-flex-align: center; align-items: center;}
 #section4 .cont .img-box {float: left; width: 62.112vh; height: 100vh; overflow: hidden;}
-#section4 .cont .img-box .in-img {width: 135vh; height: 100vh; background: url("/asset/img/car_img1.jpg")no-repeat center/cover; text-indent: -9999px;}
+#section4 .cont .img-box .in-img {width: 135vh; height: 100vh; background: url("/yujin-portfolio/asset/img/car_img1.jpg")no-repeat center/cover; text-indent: -9999px;}
 #section4 .cont .ct-box {float: left; width: 62.112vh;}
 #section4 .cont .ct-box .box {display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-align: center; -ms-flex-align: center; align-items: center;-webkit-box-pack: center; -ms-flex-pack: center; justify-content: center;}
 #section4 .cont .ct-box .box img{ display: block; width: 39.959vh; opacity: 0; transform: translateY(-50px);}
@@ -125,9 +125,9 @@ body.active { height: auto; overflow: auto; }
 #section4 #cont6 .bt-box .txt-box .txt {line-height: 180%;margin-top: 3vh; font-size: 1.863vh; word-break: keep-all;}
 
 
-#section4 #cont7 .img-box .in-img{background: url("/asset/img/car_img2.jpg")no-repeat center/cover;}
-#section4 #cont8 .img-box .in-img{background: url("/asset/img/car_img3.jpg")no-repeat center/cover;}
-#section4 #cont9 .img-box .in-img{background: url("/asset/img/car_img4.jpg")no-repeat center/cover;}
+#section4 #cont7 .img-box .in-img{background: url("/yujin-portfolio/asset/img/car_img2.jpg")no-repeat center/cover;}
+#section4 #cont8 .img-box .in-img{background: url("/yujin-portfolio/asset/img/car_img3.jpg")no-repeat center/cover;}
+#section4 #cont9 .img-box .in-img{background: url("/yujin-portfolio/asset/img/car_img4.jpg")no-repeat center/cover;}
 #section4 .cont .ct-box2 {float: left; width: 62.112vh; position: relative; height: 100vh; border-left: 1px solid #ddd; box-sizing: border-box;}
 
 #section4 .cont .ct-box2 .box {padding: 6.5vh 8vh; box-sizing: border-box;}
@@ -151,7 +151,7 @@ body.active { height: auto; overflow: auto; }
 #section4 .cont .ct-box2 .b-box .ct p span {display: inline-block; vertical-align: middle;}
 #section4 .cont .ct-box2 .b-box .ct p .txt {    color: rgba(0,0,0,0.4); display: inline-block;font-weight: 400; margin-top: 0; line-height: 100%;}
 #section4 .cont .ct-box2 .b-box .ct p .ico {display: inline-block;
-  width: 2.1vh;height: 2.1vh; background: url("/asset/img/chk_bk.png")no-repeat center/contain;}
+  width: 2.1vh;height: 2.1vh; background: url("/yujin-portfolio/asset/img/chk_bk.png")no-repeat center/contain;}
 
 /* section4 e */
 /* section5 s */
@@ -214,7 +214,7 @@ body.active { height: auto; overflow: auto; }
 #section6 #cont12 {position: relative; width: 49.172vh; padding: 0 8vh; box-sizing: border-box;}
 #section6 #cont12 .end-top {position: absolute; top: 50%; transform:  translateX(50px) translateY(-50%); cursor: pointer; opacity: 0; }
 #section6 #cont12 .end-top div {display: inline-block; vertical-align: middle;}
-#section6 #cont12 .end-top .b-arrow {width: 8.592vh; height: 9.938vh; background: url("/asset/img/arrow_bk.png")no-repeat center/contain; }
+#section6 #cont12 .end-top .b-arrow {width: 8.592vh; height: 9.938vh; background: url("/yujin-portfolio/asset/img/arrow_bk.png")no-repeat center/contain; }
 #section6 #cont12 .end-top .txt {margin-left: 3vh;}
 
 
@@ -232,7 +232,7 @@ body.active { height: auto; overflow: auto; }
 #theme .tm-box.lightT {display: none;}
 .dark #theme .tm-box.darkT {display: block;}
 #theme .tm-box span {display: block;}
-#theme .tm-box span.ico {width: 100%; height: 3.934vh; background: url("/asset/img/theme_ico.png")no-repeat center -8.35vh/4.75vh;}
+#theme .tm-box span.ico {width: 100%; height: 3.934vh; background: url("/yujin-portfolio/asset/img/theme_ico.png")no-repeat center -8.35vh/4.75vh;}
 #theme .tm-box span.txt {color: #fff; font-size: 1.242vh; text-align: center; margin-top: 1vh;}
 
 .dark #theme {background-color: #fff;}
@@ -254,12 +254,12 @@ body.active { height: auto; overflow: auto; }
 .dark #section4 .cont .ct-box2 .m-box .ct p .txt {color: var(--color);}
 .dark #section4 .cont .ct-box2 .m-box .ct p .per {background-color: #fff; color: #111; box-shadow: 0px 0px 15px rgb(255, 255, 255, 0.2);}
 .dark #section4 .cont .ct-box2 .b-box .ct p .txt {color: var(--color);}
-.dark #section4 .cont .ct-box2 .b-box .ct p .ico {background: url("/asset/img/chk_wt.png")no-repeat center/contain;}
+.dark #section4 .cont .ct-box2 .b-box .ct p .ico {background: url("/yujin-portfolio/asset/img/chk_wt.png")no-repeat center/contain;}
 .dark#section5 #cont10 .ct-box .b-box .work p .txt,.dark #section6 #cont11 .box-cont .if-box p .tt, .dark #section5 #cont10 .ct-box .b-box .work p .txt {color: var(--color); opacity: .6;}
 .dark #section5 .big-view-btn .tit {color: var(--color);}
 .dark #section6 #cont11 .box-cont .ip-box button {background-color: #fff; color: #111;}
 .dark #section6 #cont11 .box-cont .ip-box input, .dark #section6 #cont11 .box-cont .ip-box textarea {border-color: #fff; background-color: transparent; color: var(--color);}
-.dark #section6 #cont12 .end-top .b-arrow {background: url("/asset/img/arrow_wt.png")no-repeat center/contain;}
+.dark #section6 #cont12 .end-top .b-arrow {background: url("/yujin-portfolio/asset/img/arrow_wt.png")no-repeat center/contain;}
 
 
 @media screen and (max-width : 1024px){
