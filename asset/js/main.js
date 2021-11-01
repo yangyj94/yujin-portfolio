@@ -78,6 +78,24 @@ $(document).ready(function(){
 
        }
 
+       if($(window).width() > 1300 && $(window).height() < 850){
+
+        var bodyHt = mainWd * 0.95;
+
+        $('#container').width(mainWd + 'px');
+        $('body').height(bodyHt + 'px');
+
+       }
+
+       if($(window).width() < 1300 && $(window).height() > 850){
+
+        var bodyHt = mainWd * 0.95;
+
+        $('#container').width(mainWd + 'px');
+        $('body').height(bodyHt + 'px');
+
+       }
+
        if($(window).width() <= 1300 && $(window).height() <= 850){
 
         var bodyHt2 = mainWd * 0.97;
