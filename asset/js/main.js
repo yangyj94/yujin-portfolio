@@ -89,7 +89,7 @@ $(document).ready(function(){
 
        if($(window).width() < 1300 && $(window).height() > 850){
 
-        var bodyHt = mainWd * 0.95;
+        var bodyHt = mainWd * 0.98; 
 
         $('#container').width(mainWd + 'px');
         $('body').height(bodyHt + 'px');
