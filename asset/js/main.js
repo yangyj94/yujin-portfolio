@@ -66,7 +66,22 @@ $(document).ready(function(){
 
         var mainWd = $('#section1').outerWidth() + $('#section2').outerWidth() + $('#section3').outerWidth() + $('#section4').outerWidth() + $('#section5').outerWidth() + $('#section6').outerWidth() + 5;
         
+        if($(window).width() > 1550 && $(window).height() < 850){
 
+            var bodyHt = mainWd * 0.92;
+    
+            $('#container').width(mainWd + 'px');
+            $('body').height(bodyHt + 'px');
+    
+           }
+           if($(window).width() < 1550 && $(window).height() < 850){
+
+            var bodyHt = mainWd * 0.95;
+    
+            $('#container').width(mainWd + 'px');
+            $('body').height(bodyHt + 'px');
+    
+           }
        
 
        if($(window).width() > 1300 && $(window).height() >= 850){
@@ -78,14 +93,14 @@ $(document).ready(function(){
 
        }
 
-       if($(window).width() > 1300 && $(window).height() < 850){
+    //    if($(window).width() > 1300 && $(window).height() < 850){
 
-        var bodyHt = mainWd * 0.9;
+    //     var bodyHt = mainWd * 0.95;
 
-        $('#container').width(mainWd + 'px');
-        $('body').height(bodyHt + 'px');
+    //     $('#container').width(mainWd + 'px');
+    //     $('body').height(bodyHt + 'px');
 
-       }
+    //    }
 
        if($(window).width() < 1300 && $(window).height() > 850){
 

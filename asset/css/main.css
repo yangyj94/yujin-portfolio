@@ -89,7 +89,7 @@ body.active { height: auto; overflow: auto; }
 #section2 #cont3 .top-box p{font-size: 5.176vh; line-height: 150%;}
 #section2 #cont3 .top-box {padding: 10vh 8vh; box-sizing: border-box;}
 #section2 #cont3 .bt-box .box-cont {float: left; padding: 13vh 8vh; box-sizing: border-box;}
-#section2 #cont3 .bt-box .box-cont:first-child{width: 64.88vh;}
+#section2 #cont3 .bt-box .box-cont:first-child{width: 64.7vh;}
 #section2 #cont3 .bt-box .box-cont:last-child{width: 54vh; border-left: 1px solid #ddd; box-sizing: border-box;}
 
 #section2 #cont3 .bt-box .box-cont p:last-child {margin-top: 3vh;}
