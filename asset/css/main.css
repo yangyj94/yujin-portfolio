@@ -250,6 +250,7 @@ body.active { height: auto; overflow: auto; }
 .dark .section .view-btn {border-color: var(--border-color); color: var(--color);}
 .dark .section .view-btn:hover {background-color: #333;}
 .dark #section4 .view-btn, .dark .bt-box, .dark #section4 .cont .num, .dark #section4 .cont .ct-box2, .dark #section4 .cont .ct-box2 .box, .dark #section4 .cont .ct-box2 .box, .dark .ptt, .dark #section5 #cont10 .ct-box, .dark #section5 #cont10 .ct-box .tit-box, .dark #section5 #cont10 .ct-box .b-box, .dark #section5 #cont10 .ct-box .b-box .view-btn, .dark #section6 #cont11, .dark #section6 #cont11 .box-cont:last-child, .dark #section3 #cont4, .dark #section2 #cont3 .bt-box .box-cont:last-child, .dark #section2 #cont3{border-color: var(--border-color);}
+.dark #section1 #cont1 #img-box #hide{background-color: var(--background);}
 
 .dark #section4 .cont .ct-box2 .m-box .ct p .txt {color: var(--color);}
 .dark #section4 .cont .ct-box2 .m-box .ct p .per {background-color: #fff; color: #111; box-shadow: 0px 0px 15px rgb(255, 255, 255, 0.2);}
