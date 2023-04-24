@@ -81,7 +81,7 @@ body.active { height: auto; overflow: auto; }
 #section2 #cont2 .bt-box .img {position: absolute; top: 50%; left: 50%; transform: translateX(-50%) translateY(-50%); width: 80%; height: 80%; overflow: hidden;}
 #section2 #cont2.on .bt-box .img {animation: fadeIn 1.2s ease-in-out 1.5s forwards;}
 
-#section2 #cont2 .bt-box .img .in-img{background: url("/yujin-portfolio/asset/img/about_img.jpg")no-repeat center/cover; width: 120%; height: 100%; text-indent: -9999px;}
+#section2 #cont2 .bt-box .img .in-img{background:#ddd; width: 120%; height: 100%; text-indent: -9999px;}
 #section2 #cont2 .bt-box {border-top: none; position: relative; opacity: 0; transform: translateY(50px);}
 #bar4 { width: 0%; height: 1px; background-color: #ddd; position: absolute; top: 50%; transform: translateY(-50%); left: 0;}
 
